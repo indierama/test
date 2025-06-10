@@ -4,4 +4,4 @@ var speed = 500
 
 
 func _process(delta):
-	position.x -= speed * delta
+	position.x += speed * delta
